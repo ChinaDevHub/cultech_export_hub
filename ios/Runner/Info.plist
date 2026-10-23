@@ -7,7 +7,7 @@
 	<key>CFBundleDevelopmentRegion</key>
 	<string>$(DEVELOPMENT_LANGUAGE)</string>
 	<key>CFBundleDisplayName</key>
-	<string>Cultech Export Hub</string>
+	<string>Export Hub</string>
 	<key>CFBundleExecutable</key>
 	<string>$(EXECUTABLE_NAME)</string>
 	<key>CFBundleIdentifier</key>
@@ -46,6 +46,23 @@
 				</dict>
 			</array>
 		</dict>
+	</dict>
+	<key>ITSAppUsesNonExemptEncryption</key>
+	<false/>
+	<key>NSMicrophoneUsageDescription</key>
+	<string>Məhsulunuz haqqında danışmaq üçün mikrofon lazımdır.</string>
+	<key>NSSpeechRecognitionUsageDescription</key>
+	<string>Danışdıqlarınızı mətnə çevirmək üçün səs tanıma lazımdır.</string>
+	<key>NSCameraUsageDescription</key>
+	<string>Məhsulunuzun şəklini çəkmək üçün kamera lazımdır.</string>
+	<key>NSPhotoLibraryUsageDescription</key>
+	<string>Məhsulunuzun şəklini seçmək üçün qalereyaya giriş lazımdır.</string>
+	<key>NSAppTransportSecurity</key>
+	<dict>
+		<key>NSAllowsLocalNetworking</key>
+		<true/>
+		<key>NSAllowsArbitraryLoads</key>
+		<true/>
 	</dict>
 	<key>UIApplicationSupportsIndirectInputEvents</key>
 	<true/>

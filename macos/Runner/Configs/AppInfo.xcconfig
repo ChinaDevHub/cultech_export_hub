@@ -8,7 +8,7 @@
 PRODUCT_NAME = cultech_export_hub
 
 // The application's bundle identifier
-PRODUCT_BUNDLE_IDENTIFIER = com.example.cultechExportHub
+PRODUCT_BUNDLE_IDENTIFIER = com.cingizzaidov.culturalexporthub
 
 // The copyright displayed in application information
 PRODUCT_COPYRIGHT = Copyright © 2026 com.example. All rights reserved.

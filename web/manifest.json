@@ -1,12 +1,12 @@
 {
-    "name": "cultech_export_hub",
-    "short_name": "cultech_export_hub",
+    "name": "Cultural Export Hub",
+    "short_name": "Export Hub",
     "start_url": ".",
     "display": "standalone",
-    "background_color": "#0175C2",
-    "theme_color": "#0175C2",
-    "description": "A new Flutter project.",
-    "orientation": "portrait-primary",
+    "background_color": "#0E5A57",
+    "theme_color": "#FFFFFF",
+    "description": "Heirloom crafts from the villages of Azerbaijan.",
+    "orientation": "any",
     "prefer_related_applications": false,
     "icons": [
         {
@@ -31,5 +31,7 @@
             "type": "image/png",
             "purpose": "maskable"
         }
-    ]
+    ],
+    "lang": "az",
+    "id": "/"
 }
